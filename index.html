@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h1 id="title-tag">Rock Paper Scissor</h1>
+    <video autoplay loop muted id="myvideo">
+        <source type="video/mp4" src="assets/final-vdo.mp4">
+    </video>
+        <div class="logo">
+            <img src="assets/softtechashram.png" alt="softtechashram">
+        </div>
+
+    <div class="container" id="main-container">
+        
+        <img id="v-img" src="assets/victory-img.png" alt="">
+        <img id="d-img" src="assets/defeat-img.png" alt="">
+        <img id="dr-img" src="assets/draw.png" alt="">
+        
+        <section id="display-game" >
+            <div id="player" class="one">
+                <img id="player-image" src="assets/king.png" alt="king">
+            </div>
+            <div class="vs one">
+                <h2 id="life">Life: 10 </h2>
+                <p>VS</p>
+            </div>
+            <div id="computer" class="one">
+                <img id="computer-image" src="assets/queen.png" alt="queen">
+            </div>
+        </section>
+        <section id="result-content">
+            <div id="player-res">Chief : 0</div>
+            <div id="main-result"> Result </div>
+            <div id="computer-res">Enemy : 0</div>
+        </section>
+
+        <div id="controls">
+            <div class="btn">
+                <img src="assets/rock.PNG" alt="rock">
+            </div>
+            <div class="btn">
+                <img src="assets/paper.PNG" alt="paper">
+            </div>
+            <div class="btn">
+                <img src="assets/scissors.PNG" alt="scissors">
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
