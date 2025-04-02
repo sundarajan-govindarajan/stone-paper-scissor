@@ -44,8 +44,8 @@ function getValues(e) {
 
 // reset back all
 function resetAll() {
-    pscore.textContent = "Chief : 0";
-    cscore.textContent = "Enemy : 0";
+    pscore.textContent = "Human : 0";
+    cscore.textContent = "Computer : 0";
     mscore.textContent = "Result";
     finalcount.textContent = "Life: 0"
     totalLimit = 10;
