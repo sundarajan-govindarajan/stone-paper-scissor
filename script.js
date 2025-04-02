@@ -71,8 +71,8 @@ function checkResult(player, computer) {
     } else {
         if ((player === "rock" && computer === "scissors") || (player === "paper" && computer === "rock") || (player === "scissors" && computer === "paper")) {
             player_count_limit++;
-            pscore.innerHTML = `Chief : ${player_count_limit}`
-            mscore.innerText = "Chief Won"
+            pscore.innerHTML = `Human : ${player_count_limit}`
+            mscore.innerText = "Human Won"
 
             pscore.classList.add("wining-animation")
             mscore.classList.remove("wining-animation")
@@ -96,8 +96,8 @@ function checkResult(player, computer) {
         }
         else {
             computer_count_limit++;
-            mscore.innerText = "Opponent Won"
-            cscore.innerHTML = `Enemy : ${computer_count_limit}`
+            mscore.innerText = "Computer Won"
+            cscore.innerHTML = `Computer : ${computer_count_limit}`
         
             cscore.classList.add("wining-animation")
             pscore.classList.remove("wining-animation")
